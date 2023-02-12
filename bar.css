@@ -1,0 +1,35 @@
+.iconBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.iconBar a{
+    width: 40px;
+    height:40px;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #777;
+    font-size: 24px;
+    margin: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 10px 10px 20px rgba(0,0,0, .4);
+}
+.iconBar a:hover{
+    background-color: rgb(0, 255, 213);
+    color: #777;
+}
+.iconBar a:active{
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 10px rgba(0,0,0, .4);
+}
+.iconBar a.active{
+    background-color: rgb(0, 255, 213);
+    color: #777;
+}
